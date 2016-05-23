@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_title"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:text="Add Device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:background="#CCCCCC"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_marginLeft="@dimen/margin_step_16"
+                android:layout_marginRight="@dimen/margin_step_16"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="Device Name"
+                        android:textSize="16sp"
+                        android:textColor="@color/color_666666"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        style="@style/bg_around_edit"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="@dimen/margin_step_12"
+                        android:paddingLeft="@dimen/margin_step_12"
+                        android:paddingRight="@dimen/margin_step_12">
+                        <EditText
+                            android:id="@+id/et_device_name"
+                            android:background="@null"
+                            android:textSize="14sp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Input Device Name" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="SIM No"
+                        android:textSize="16sp"
+                        android:textColor="@color/color_666666"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        style="@style/bg_around_edit"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="@dimen/margin_step_12"
+                        android:paddingLeft="@dimen/margin_step_12"
+                        android:paddingRight="@dimen/margin_step_12">
+                        <EditText
+                            android:id="@+id/et_sim_no"
+                            android:background="@null"
+                            android:textSize="14sp"
+                            android:inputType="phone"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="Device Type"
+                        android:textSize="16sp"
+                        android:textColor="@color/color_666666"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        style="@style/bg_around_edit"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="@dimen/margin_step_12"
+                        android:paddingLeft="@dimen/margin_step_12"
+                        android:paddingRight="@dimen/margin_step_12">
+                        <EditText
+                            android:id="@+id/et_device_type"
+                            android:background="@null"
+                            android:textSize="14sp"
+                            android:inputType="phone"
+                            android:digits="0123456789"
+                            android:maxLength="10"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Input Device Type" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="@dimen/margin_step_16"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="Password"
+                        android:textSize="16sp"
+                        android:textColor="@color/color_666666"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        style="@style/bg_around_edit"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="@dimen/margin_step_12"
+                        android:paddingLeft="@dimen/margin_step_12"
+                        android:paddingRight="@dimen/margin_step_12">
+                        <EditText
+                            android:id="@+id/et_password"
+                            android:background="@null"
+                            android:textSize="14sp"
+                            android:maxLength="6"
+                            android:inputType="phone"
+                            android:digits="0123456789"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Input Password" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:background="#CCCCCC"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:text="Cancel"
+                    android:textSize="18sp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:background="@drawable/bg_press"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="#dddddd" />
+                <TextView
+                    android:id="@+id/tv_sure"
+                    android:text="Sure"
+                    android:background="@drawable/bg_press"
+                    android:textSize="18sp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="@color/color_333333"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

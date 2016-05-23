@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="User Name"
+                android:textSize="16sp"
+                android:textColor="@color/color_333333"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                style="@style/bg_around_edit"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:paddingLeft="@dimen/margin_step_12"
+                android:paddingRight="@dimen/margin_step_12">
+                <EditText
+                    android:id="@+id/et_user_name"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:textColor="@color/color_333333"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Input User Name" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="Password"
+                android:textSize="16sp"
+                android:textColor="@color/color_333333"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                style="@style/bg_around_edit"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:paddingLeft="@dimen/margin_step_12"
+                android:paddingRight="@dimen/margin_step_12">
+                <EditText
+                    android:id="@+id/et_password"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:textColor="@color/color_333333"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:hint="Input Password" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="Confirm Password"
+                android:textSize="16sp"
+                android:textColor="@color/color_333333"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                style="@style/bg_around_edit"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:paddingLeft="@dimen/margin_step_12"
+                android:paddingRight="@dimen/margin_step_12">
+                <EditText
+                    android:id="@+id/et_confirm_passwd"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:textColor="@color/color_333333"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:hint="Input Confirm Password" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="Email"
+                android:textSize="16sp"
+                android:textColor="@color/color_333333"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                style="@style/bg_around_edit"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:paddingLeft="@dimen/margin_step_12"
+                android:paddingRight="@dimen/margin_step_12">
+                <EditText
+                    android:id="@+id/et_email"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:textColor="@color/color_333333"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Input Email" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_server_info"
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_step_16"
+                android:paddingRight="@dimen/margin_step_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Server IP"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_333333"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_ip"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="@dimen/margin_step_12"
+                    android:textColor="@color/color_999999"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_step_12"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_step_16"
+                android:paddingRight="@dimen/margin_step_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Server Port"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_333333"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_port"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="@dimen/margin_step_12"
+                    android:textColor="@color/color_999999"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/login_background_selector"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

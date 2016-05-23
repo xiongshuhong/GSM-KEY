@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayoutAlarmSMSSetting"
+    android:orientation="vertical" >  
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:textSize="18.0dip" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="@color/white"
+        android:text="@string/alarm1"/>
+    <EditText android:id="@+id/edtAlarm1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alarm_hint"
+        />
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:textSize="18.0dip" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="@color/white"
+        android:text="@string/alarm2"/>
+    <EditText android:id="@+id/edtAlarm2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alarm_hint"
+        />
+</LinearLayout>
+</LinearLayout>

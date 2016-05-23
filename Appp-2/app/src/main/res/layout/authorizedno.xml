@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/authorized"
+    android:orientation="horizontal" >
+    <TextView android:textSize="18.0dip" 
+        android:id="@+id/txtView_time"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="@color/white"
+        android:text="@string/serial_no"/>
+    <EditText android:id="@+id/enter_serial_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:digits="1234567890"
+        />
+</LinearLayout>

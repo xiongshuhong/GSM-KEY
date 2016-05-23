@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/set_authorized"
+    android:orientation="vertical" >
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip"
+            android:id="@+id/textView_authorized_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/authorized_no"/>
+        <EditText android:id="@+id/edt_enter_authorized_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/enter_authorized_no"
+            />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip"
+            android:id="@+id/textView_enter_serial_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/serial_no"/>
+        <EditText android:id="@+id/enter_serial_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:maxLength="5"
+            android:hint="@string/enter_serial_no_200"/>
+    </LinearLayout>
+</LinearLayout>

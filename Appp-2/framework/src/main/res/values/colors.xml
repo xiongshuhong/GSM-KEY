@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_press_btn">#19000000</color>
+    <color name="line">#d6d6d6</color>
+    <color name="bg_header">#FCFCFC</color>
+    <color name="White">#ffffff</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_EFEBE8">#EFEBE8</color>
+    <color name="text_color1">#323C46</color>
+    <color name="text_color2">#8C96A0</color>
+    <color name="color_DADADA">#DADADA</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+    <color name="color_3B98D8">#3B98D8</color>
+
+    <color name="color_15000000">#15000000</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_00000000">#00000000</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_dddddd">#DDDDDD</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_f2f2f2">#F2F2F2</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_f5f5f5">#F5F5F5</color>
+    <color name="color_cccccc">#CCCCCC</color>
+    <color name="color_b0000000">#b0000000</color>
+    <color name="color_1abc9c">#1ABC9C</color>
+    <color name="color_fff">#fff</color>
+</resources>

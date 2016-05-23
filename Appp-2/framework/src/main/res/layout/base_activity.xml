@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <RelativeLayout
+       	android:id="@+id/base_activity_inside_rr_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+		  
+         
+        
+        <irene.com.framework.view.TitleBar
+            android:id="@+id/tb_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+       
+        
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/bg_header"
+            android:layout_below="@id/tb_title" >
+
+            <include
+                android:id="@+id/loadingView"
+                layout="@layout/base_activity_loading_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/emptyView"
+                layout="@layout/base_activity_empty_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/failView"
+                layout="@layout/base_activity_fail_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_normalView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/color_EFEBE8"
+                android:orientation="vertical"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+   
+   
+</RelativeLayout>

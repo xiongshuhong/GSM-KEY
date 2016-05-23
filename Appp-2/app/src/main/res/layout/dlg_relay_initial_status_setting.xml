@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/linearLayout_RelayInitialStatus"
+    android:layout_height="fill_parent">
+	<RadioGroup android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/radioGroupRelayInitialStatus">
+	<RadioButton android:id="@+id/radioBtnRelayInitialStatus_ON"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/white"
+	    android:checked="true"
+	    android:text="@string/on"/>
+	<RadioButton android:id="@+id/radioBtnRelayInitialStatus_OFF"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/white"
+	    android:checked="false"
+	    android:text="@string/off"/>"
+	</RadioGroup>
+</LinearLayout>

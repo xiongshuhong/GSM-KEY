@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearlayout_setgottime"
+    android:orientation="vertical" >
+<RadioGroup android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/radioGroupSetGotTime">
+	<RadioButton android:id="@+id/radioBtn_mil"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:checked="true"
+	    android:textColor="@color/white"
+	    android:text="@string/setgottime_mil"/>
+	<RadioButton android:id="@+id/radioBtn_sec"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:checked="false"
+	    android:textColor="@color/white"
+	    android:text="@string/setgottime_sec"/>"
+	<RadioButton android:id="@+id/radioBtn_min"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:checked="false"
+	    android:textColor="@color/white"
+	    android:text="@string/setgottime_min"/>"
+	</RadioGroup>
+</RelativeLayout>

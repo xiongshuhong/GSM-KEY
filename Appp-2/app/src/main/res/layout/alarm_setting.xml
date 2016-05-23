@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_alarmSetting"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/alarm1_setting"/>
+         <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <RadioGroup android:id="@+id/radioGroup_onoff"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+          <RadioButton android:id="@+id/radionBtn_on"
+             android:text="@string/on"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+          <RadioButton android:checked="true"
+             android:id="@+id/radionBtn_off"
+             android:text="@string/off"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>  
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup android:id="@+id/radioGroup_smsphone"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+          <RadioButton android:id="@+id/radionBtn_sms"
+             android:checked="true"
+             android:text="@string/sms"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+          <RadioButton android:id="@+id/radionBtn_phone"
+             android:text="@string/phone"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>         
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/alarm_time"/>
+        <EditText android:id="@+id/edtTime_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alarm_time_hint"
+        android:inputType="number"
+        android:digits="1234567890"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/alarm2_setting"/>
+         <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <RadioGroup android:id="@+id/radioGroup_onoff2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+          <RadioButton android:id="@+id/radionBtn_on2"
+             android:text="@string/on"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+          <RadioButton android:checked="true"
+             android:id="@+id/radionBtn_off2"
+             android:text="@string/off"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>  
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup android:id="@+id/radioGroup_smsphone2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+          <RadioButton android:id="@+id/radionBtn_sms2"
+             android:checked="true"
+             android:text="@string/sms"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+          <RadioButton android:id="@+id/radionBtn_phone2"
+             android:text="@string/phone"
+             android:textColor="@color/white"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>         
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/alarm_time"/>
+        <EditText android:id="@+id/edtTime_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alarm_time_hint"
+        android:inputType="number"
+        android:digits="1234567890"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

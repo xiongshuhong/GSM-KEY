@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/sf/Downloads/王先生项目群/Appp-2/AndroidNetworking/assets"><file name="libs/android-support-v4.jar" path="/Users/sf/Downloads/王先生项目群/Appp-2/AndroidNetworking/assets/libs/android-support-v4.jar"/></source><source path="/Users/sf/Downloads/王先生项目群/Appp-2/AndroidNetworking/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/sf/Downloads/王先生项目群/Appp-2/AndroidNetworking/build-types/debug/assets"/></dataSet></merger>

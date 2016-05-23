@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>\
+    <dimen name="margin_step_32">32dp</dimen>
+    <dimen name="margin_step_24">24dp</dimen>
+    <dimen name="margin_step_16">16dp</dimen>
+    <dimen name="margin_step_14">14dp</dimen>
+    <dimen name="margin_step_12">12dp</dimen>
+    <dimen name="margin_step_10">10dp</dimen>
+    <dimen name="margin_step_8">8dp</dimen>
+    <dimen name="margin_step_6">6dp</dimen>
+    <dimen name="margin_step_4">4dp</dimen>
+</resources>

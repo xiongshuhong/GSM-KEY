@@ -1,0 +1,236 @@
+<resources>
+
+    <string name="app_name">GSM-KEY</string>
+    <string name="title_activity_welcome">GSM-KEY</string>
+	<string name="menu_settings">Menu Settings</string>
+	<string name="tips">Tip:\nUser-defined 2:Enable return SMS when Relay Action</string>
+	<string name="system_settings">GSM-KEY Setting</string>
+	<string name="authorized_settings">Authorized No.Settings</string>
+	<string name="limit_access_no_settings">Limit Acccess NO.Settings</string>
+	<string name="set_access_control_no">Set Access Control No.</string>
+	<string name="set_new_password">Set New Password</string>
+	<string name="gprs_setting">GPRS Settings</string>
+	<string name="alarm_setting_title">Alarm Settings</string>
+	<string name="old_password">Old  Password</string>
+	<string name="new_password">New Password</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	<string name="enter_access_control">Enter the Access Control No.</string>
+	
+	<string name="set_working_mode">Set Working Mode</string>
+	<string name="set_working_mode_hint">#PWDpwd#MODE xx</string>
+	<string name="check_gsm_signal">Check GSM Signal</string>
+	<string name="check_gsm_signal_hint">#PWDpwd#CSQ?</string>
+	<string name="set_the_got_time">GOT Timer Setting</string>
+	<string name="set_the_got_time_hint">#PWDpwd#GOTxx:xx</string>
+	<string name="set_relay_close_time">Set Relay Close Time(GOT time)</string>
+	<string name="set_relay_close_time_hint">#PWDpwd#GOTxx</string>
+	<string name="alarm_working_mode">Alarm Working Mode</string>
+	<string name="alarm_working_mode_hint">#PWDpwd#ALARM-IN1=xx:xx:xxx,ALARM-IN2=xx:xx:xx</string>
+	<string name="get_alarm_sms_text">Alarm Text Inquiry</string>
+	<string name="is_get_alarm_sms_text">Inquiry Alarm Text Now?</string>
+	<string name="get_alarm_sms_text_hint">#PWDpwd#UDI?</string>
+	<string name="set_alarm_sms_text">Set Alarm SMS Text</string>
+	<string name="set_alarm_sms_text_hint">#PWDpwd#UID1:xx,#UDI2:xx</string>
+	<string name="relay_initial_status">REALY1 Initial Status Setting</string>
+	<string name="relay2_initial_status">REALY2 Initial Status Setting</string>
+	<string name="relay_initial_status_hint">#PWDpwd#OUT1=xx</string>
+	<string name="status_check">System Status Data Check</string>
+	<string name="status_check_hint">#PWDpwd#STATUS?</string>
+	<string name="enable_acm_mode">Enable ACM Mode</string>
+	<string name="enable_acm_mode_hint">#PWDpwd#ACMxx</string>
+	<string name="enable_report_mode">Enable REPORT Mode</string>
+	<string name="enable_report_mode_hint">#PWDpwd#REPORTxx</string>
+	<string name="enable_reply_mode">Enable REPLY Mode</string>
+	<string name="enable_reply_mode_hint">#PWDpwd#REPLYxx</string>
+	<string name="select_apn">Select APN</string>
+	<string name="setup_apn">Setup APN</string>
+	<string name="setup_apn_hint">#PWDpwd#APNxx</string>
+	<string name="register_to_server">Register to Server</string>
+	<string name="register_to_server_hint">#PWDpwd#GPRSxx</string>
+	<string name="setup_the_customized_command">Setup the customized command</string>
+	<string name="none"></string>
+
+	<string name="setup_customized_open1_text">Setup Customized Open1 Text</string>
+	<string name="setup_customized_open1_text_hint">#PWDpwd#OPEN1-TEXT#XXXX</string>
+	<string name="setup_customized_close1_text">Setup Customized Close1 Text</string>
+	<string name="setup_customized_close1_text_hint">#PWDpwd#CLOSE1-TEXT#XXXX</string>
+	<string name="setup_customized_pulse_control1_text">Setup Customized Pulse1 Control Text</string>
+	<string name="setup_customized_pulse_control1_text_hint">#PWDpwd#RLY-TEXT1#XXXX</string>
+	<string name="check_customized_command_text">Check OUT1 Customized Command Text</string>
+	<string name="check_customized_command_text_hint">#PWDpwd#OUT1-TEXT?</string>
+	<string name="setup_customized_open2_text">Setup Customized Open2 Text</string>
+	<string name="setup_customized_open2_text_hint">#PWDpwd#OPEN2-TEXT#XXXX</string>
+	<string name="setup_customized_close2_text">Setup Customized Close2 Text</string>
+	<string name="setup_customized_close_text2_hint">#PWDpwd#CLOSE2-TEXT#XXXX</string>
+	<string name="setup_customized_pluse_control2_text">Setup Customized Pulse2 Control Text</string>
+	<string name="setup_customized_pluse_control2_text_hint">#PWDpwd#RLY-TEXT2#XXXX</string>
+	<string name="check_customized_command2_text">Check OUT2 Customized Command Text</string>
+	<string name="check_customized_command2_text_hint">#PWDpwd#OUT2-TEXT?</string>
+	<string name="alarm_setting">Alarm Setting</string>
+	<string name="on">ON</string>
+	<string name="off">OFF</string>
+	<string name="sms">SMS</string>
+	<string name="phone">PHONE</string>
+	<string name="alarm_time">Alarm Time</string>
+	<string name="alarm_context">Alarm Context</string>
+	<string name="alarm1">Alarm1</string>
+	<string name="alarm2">Alarm2</string>
+	<string name="alarm1_setting">Alarm1 Setting</string>
+	<string name="alarm2_setting">Alarm2 Setting</string>
+	<string name="alarm_time_hint">Please set the time</string>
+	<string name="alarm_hint">Enter alarm message</string>
+	<string name="please_input_alarm_hint">please Enter Alarm Message</string>
+	<string name="set">Set</string>
+	<string name="alarm_mesage_setting">Alarm Message Setting</string>
+	<string name="set_authorized">Set Authorized No.</string>
+	<string name="pwd_tel">#PWDpwd#WHLSerial No.=Authorized No.</string>
+	<string name="inquiry_authorized">Inquiry Authorized No.</string>
+	<string name="pwd_tel_serial_no">#PWDpwd#WHLSerial No.?</string>
+	<string name="remove_authorized_no">Remove Authorized No.</string>
+	<string name="pwd_tel_serial_">#PWDpwd#WHLSerial No.=0000000</string>
+	
+	<string name="set_alarm">Set Alarm No.</string>
+	<string name="pwd_alarm">#PWDpwd#ALARMAlarm Serial No.=Alarm No.</string>
+	<string name="inquiry_alarm">Inquiry Alarm No.</string>
+	<string name="is_inquiry_alarm">Inquiry Alarm No Now?</string>
+	<string name="pwd_alarm_serial_no">#PWDpwd#ALARM=ALL?</string>
+	<string name="remove_alarm_no">Remove Alarm No.</string>
+	<string name="pwd_alarm_serial_">#PWDpwd#ALARM Alarm Serial No.=0000000</string>
+	<string name="inquery_a_number">Search a Number</string>
+	<string name="inquery_a_number_hint">#PWDpwd#QUERY=xxxxxx</string>
+
+	<string name="please_fill_the_phone_number">Please fill the phone number</string>
+	<string name="please_fill_all">Please fill all the parameters</string>
+	<string name="authorized_no">Authorized No.</string>
+	<string name="enter_authorized_no">Enter Authorized No.</string>
+	<string name="serial_no">Serial No.</string>
+	<string name="enter_serial_no_200">Enter Serial No. (001 to 200)</string>
+	<string name="enter_serial_no_2000">Enter Serial No. (001 to 2000)</string>
+	<string name="send">Send</string>
+	
+	<string name="operating">Operating</string>
+	<string name="saved_as_user_defined_1">Save as User-defined 1</string>
+	<string name="saved_as_user_defined_2">Save as User-defined 2</string>
+	<string name="digital_input">Digital Input</string>
+	<string name="enter_digital_input">Enter Digital Input:1~2</string>
+	<string name="message">Message</string>
+	<string name="enter_alarm_message">Enter alarm message</string>
+	<string name="time">Time</string>
+	<string name="enter_time">Enter time:01~19</string>
+	<string name="sms_send_successful">SMS send successful</string>
+	<string name="save_as_user_defined_1">Save as User-defined 1 successful</string>
+	<string name="save_as_user_defined_2">Save as User-defined 2 successful</string>
+	<string name="arm_successful">Arm successful!</string>
+	<string name="disarm_successful">Disarm successful!</string>
+	<string name="inquiry_onoff">Inquiry ON/OFF response time successful</string>
+	<string name="bind_is_successful">Binding the phone number .</string>
+	<string name="bind_is_successful_on">successfully!</string>
+	<string name="access_control_no">Access Control No.:</string>
+	<string name="not_set_access_control_no">You haven\'t set the Access Control No.</string>
+	<string name="enter_the_access_control_no_first">Enter the Access Control No. first</string>
+	<string name="working_mode">Working Mode :</string>
+	<string name="mode_0">Mode0 (Toggle mode)</string>
+	<string name="mode_1">Mode1 (Switch mode)</string>
+	<string name="please_enter_password">Please enter password</string>
+	<string name="please_enter_new_password">Please enter new password</string>
+	<string name="please_confirm_new_password">Please confirm new password</string>
+	<string name="please_enter_correct_password">Please enter the correct password</string>
+	<string name="new_passwords_not_match">New Passwords do not match</string>
+	<string name="new_passwords_match">New Password and Old Password are the same!</string>
+	<string name="password_is_set_successfully">Password is set successfully!</string>
+	<string name="serial_no_wrong">Serial No is Wrong!</string>
+	<string name="please_enter_the_authorized_no">Please enter the Authorized No.content</string>
+	<string name="please_enter_seial_no">Please enter the Serial No.content!</string>
+	<string name="send_sms_successfully">SMS sends successfully</string>
+	<string name="please_enter_alarm_no">Please enter the Alarm No.content!</string>
+	<string name="alarm_no">Alarm No.</string>
+	<string name="enter_alarm_no">Enter Alarm No.</string>
+	<string name="set_relay_close_time_title">Set Relay Close Time</string>
+	<string name="relay_close_time">Relay Close Time</string>
+	<string name="please_input_relay_close_time">Enter Relay Close Time</string>
+	<string name="please_input_the_alarm_message">Please Input The Alarm Message</string>
+	<string name="setgottime_mil">Millisecond</string>
+	<string name="pleaseinput_setgottime_mil">Enter Millsecond.</string>
+	<string name="setgottime_sec">Second</string>
+	<string name="pleaseinput_setgottime_sec">Enter Second.</string>
+	<string name="setgottime_min">Minute</string>
+	<string name="pleaseinput_setgottime_min">Enter Minute</string>
+	<string name="please_input_the_got_time_base_timer">Please Input GOT time base timer</string>
+	<string name="number_too_small">Less than 01</string>
+	<string name="number_too_big">More than 65530</string>
+	<string name="alarm_serial_no_hint">Enter Alarm Serial No.:01~05</string>
+	<string name="alarm_serial_no">Alarm Serial No</string>
+	<string name="please_enter_alarm_serial_no">Please Input the Alarm No!</string>
+	<string name="alarm_no_big">More than 05!</string>
+	<string name="alarm_no_low">Less than 01!</string>
+	<string name="more_than_200">More than 200</string>
+	<string name="more_than_2000">More than 2000</string>
+	<string name="serial_no_low">Less than 01</string>
+	<string name="reset_password">Refresh Password</string>
+	<string name="reset_password_2">Reset password to factory setting</string>
+	<string name="reset_password_hint">Enter Password</string>
+	<string name="is_reset_password">Are you sure to Refresh Password?</string>
+	<string name="ok">Yes</string>
+	<string name="reset_password_successful">Refresh Password Successfully!</string>
+	<string name="is_check_gsm_signal">Check GSM Singnal Now?</string>
+	<string name="is_check_status">Check Status Now?</string>
+	<string name="exit_the_program">Exit the program</string>
+	<string name="is_exit_the_program">Exit the program?</string>
+	<string name="enter_alarm1_time">Enter the Alarm1 time!</string>
+	<string name="enter_alarm2_time">Enter the Alarm2 time!</string>
+	<string name="alarm_on">Are Alarms Set On Now?</string>
+	<string name="alarm_on_title">Alarms are Set On</string>
+	<string name="alarm_off">Are Alarms Set Off Now?</string>
+	<string name="alarm_off_title">Alarms are Set Off</string>
+	<string name="call_key_title">Call </string>
+	<string name="call_key">Call Now?</string>
+	<string name="relay_inital_set_on">Connect the Output now?</string>
+	<string name="relay_inital_set_off">Disconnect the Output now?</string>
+	<string name="please_check_the_got_data">Please check the GOT data is suitable for your selected timer base</string>
+	<string name="help_title">Quick Tips</string>
+	<string name="help_content">"Quck tips:
+Screen Button:
+	1. Alarm
+	2. Disalarm
+	3. Dial to Open
+	4. Switch On
+	5. Switch Off
+Phone numbers Settings: 
+	1. Set Access Control Number:
+	Set the SIM card number in the GSM-KEY device that you want to remote control.
+	2. Authorized No.Settings: 
+	Authorized Number,that is used to control the GSM-KEY through the phone calling or SMS.Alarm Number, that is used to setup the mobile phone number to receive the alarm SMS from GSM-KEY
+System Settings:
+1. Working mode:
+	Mode0: Toggle mode, when you call the GSM-KEY,that relay would be toggled and aft er the GOT timer,the relay would back to the previous status.
+	Mode1: Switch mode, when you call the GSM-KEY,that relay would be switched.
+2. GOT time base timer: 
+	That is working together with the GOT time for the Relay toggle mode.
+3. Alarm working mode:
+	Setup the alarm1 and alarm2 parameters.When the alarm is setup to ON and when the alarm signal is kept for the alarm time,then would trigger the alarm signal. then would report the alarm through the SMS or phone calling to the alarm phone number.
+4. Alarm SMS text setup:
+	When the SMS alarm is triggered,then the GSM-KEY would send this text message to the alarm phone number.
+5. Relay initial status setting:
+	Remote control the Relay to ON or OFF initial status with the SMS.
+6. Status check:
+	Remote reading the GSM-KEY parameters and status."</string>
+    <string name="close">Close</string>
+	<string name="login">Login</string>
+
+	<string name="msg1">connect time out</string>
+	<string name="msg2">connect success</string>
+	<string name="msg3">devices disconnect</string>
+	<string name="msg4">send success</string>
+	<string name="msg5">devices disconnect,please connect again</string>
+	<string name="msg6">invalid ip</string>
+	<string name="msg7">invalid port</string>
+	<string name="add_ip">Add IP Port</string>
+	<string name="edit_ip_port">Edit IP Port</string>
+	<string name="set_weekly_access_number">Weekly access number</string>
+	<string name="weekly_access_number">Weekly access number</string>
+	<string name="pwd_weekly_access_number">#PWDpwd#SHLXX=XX:XX(XX-XX)</string>
+	<string name="daily_access_number">Daily access number</string>
+	<string name="pwd_daily_access_number">#PWDpwd#PHLXX=XX:XX(XX-XX)</string>
+	<string name="choose_apn">Choose APN</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_step_12"
+        android:paddingLeft="@dimen/margin_step_16"
+        android:paddingRight="@dimen/margin_step_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_read_default"
+            android:textSize="14sp"
+            android:layout_width="160dp"
+            android:maxLength="10"
+            android:hint="Input County"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/tv_read_default"
+            android:layout_gravity="center_vertical"
+            android:text="Read Default"
+            android:textSize="16sp"
+            android:textColor="@color/color_333333"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/bg_read"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="Device Number"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_device_number"
+                android:textSize="14sp"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="40dp"
+                android:hint="Input Device Number" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="APN"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_apn"
+                android:textSize="14sp"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:hint="Input APN" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="User Name"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_user_name"
+                android:textSize="14sp"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Input User Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_step_12"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_step_16"
+            android:paddingRight="@dimen/margin_step_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="Password"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_marginLeft="@dimen/margin_step_12"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Input Password" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

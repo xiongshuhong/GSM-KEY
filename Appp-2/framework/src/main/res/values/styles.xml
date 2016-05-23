@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TableTextStyle_12">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/text_color2</item>
+    </style>
+
+    <style name="TitleTextStyle_18">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+</resources>
